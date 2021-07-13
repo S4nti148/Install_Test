@@ -27,7 +27,7 @@ echo "-----------------------------------------------"
 cd $ruta
 echo "Cual es el nombre del archivo?"
 read nombre
-#dpkg -i $nombre  
+rpm -ivh $nombre  
 echo "Se esta instalando en $ruta, el nombre del archivo es $nombre"  
  
 #yum install $nombre 
